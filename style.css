@@ -6,7 +6,7 @@ body{
 }
 
 .nav-logo{
-    margin-left: 520px;
+    margin-left: 650px;
     margin-top: -160px;
     width: 500px;
     height: 400px;
@@ -205,5 +205,5 @@ footer .column > a:hover{
 .vid{
     width: 750px;
     height: 750px;
-    margin-left: 400px;
+    margin-left: 550px;
 }
