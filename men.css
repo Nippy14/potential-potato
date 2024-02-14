@@ -6,7 +6,7 @@ body{
 }
 
 .nav-logo{
-    margin-left: 480px;
+    margin-left: 650px;
     margin-top: -160px;
     width: 500px;
     height: 400px;
@@ -81,9 +81,16 @@ header .content h2{
 
 .blur{
     position: absolute;
-    box-shadow: 0 0 1000px 50px #97d700;
+    box-shadow: 0 0 1000px 60px #97d700;
     z-index: -100;
-    margin-top: 50px;
+    margin-left: 250px;
+    margin-top: 100px;
+}
+
+.blurr{
+    position: absolute;
+    box-shadow: 0 0 1000px 60px #97d700;
+    z-index: -100;
 }
 
 .product-container {
@@ -114,24 +121,31 @@ header .content h2{
 }
 
 footer{
-    position: relative;
     display: grid;
-    grid-template-columns: 400px repeat(3, 1fr);
+    position: relative;
+    grid-template-columns: 650px repeat(5, 1fr);
     gap: 2rem;
+    padding: 2rem;
+}
+
+footer .column{
+    text-align: left;
 }
 
 footer .column .logo{
-    max-width: 100px;
-    margin-left: -20px;    
+    max-width: 100%;
+    margin-top: -150px;
+    margin-left: 50px;
 }
 
 footer .column p{
     color: white;
     margin-bottom: 2rem;
+    margin-top: -100px;
 }
 
 footer .column h4{
-    margin-top: 150px;
+    margin-top: 15px;
     color: black;
     margin-bottom: 2rem;
     font-size: 1.2rem;
@@ -142,7 +156,6 @@ footer .column > a{
     display: block;
     color: black;
     margin-bottom: 1rem;
-    margin-left: -20px;
     transition: all 0.3s ease;
 }
 
